@@ -28,7 +28,7 @@ class ReidsTestApplicationTests {
 
     @Test
     void testReleaseLock(){
-        Boolean state = redisLockUtils.release("lock", "706b5755-056a-49e6-a80f-158b74878cae");
+        Boolean state = redisLockUtils.release("lock", "30071338-a472-4e1b-87bf-87280df563bb");
         System.out.println(state);
     }
 }
